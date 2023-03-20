@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url(fonts/CursedTimerULiL.woff);
+}
+
+body {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  color: #eee;
+}
+
+.container {
+  background-image: url("https://images.unsplash.com/photo-1602357280104-742c517a1d82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=950&q=80");
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 575px;
+  border-radius: 15px;
+}
+
+.container-board {
+  width: 155px;
+}
+
+.board-title {
+  font-size: 40px;
+  line-height: 36px;
+  margin: 68px 0 21px;
+  text-shadow: 0 0 0.7px black;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ptn-btn {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  font-family: "Cursed Timer ULiL";
+  font-weight: 400px;
+  font-size: 18px;
+  text-align: center;
+  color: #9aabd8;
+  margin-bottom: 40px;
+}
+
+.ptn-board {
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+  margin-bottom: 26px;
+}
+
+.ptn-text {
+  font-family: "Cursed Timer ULiL";
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  color: #f94f6d;
+}
+
+.clear-btn {
+  font-family: "Cursed Timer ULiL";
+  width: 79px;
+  padding: 4px 6px;
+  font-size: 18px;
+  border: 1px dashed #333;
+  border-radius: 5px;
+  color: #9aabd8;
+  background: #ddd;
+  margin-bottom: 20px;
+}
