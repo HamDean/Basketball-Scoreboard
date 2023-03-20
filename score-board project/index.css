@@ -73,13 +73,14 @@ body {
   padding: 10px 15px;
   border-radius: 10px;
   background-color: white;
-  border: 1px solid #f94f6d;
+  border: 2px dashed #f94f6d;
   font-size: larger;
   color: #f94f6d;
+  font-family: "Cursed Timer ULiL";
   transition: 0.2s;
 }
 
 .clear-points:hover {
-  background-color: #f94f6d;
+  background-color: rgb(204, 63, 63);
   color: white;
 }
