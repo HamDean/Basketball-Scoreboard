@@ -69,14 +69,17 @@ body {
   color: #f94f6d;
 }
 
-.clear-btn {
-  font-family: "Cursed Timer ULiL";
-  width: 79px;
-  padding: 4px 6px;
-  font-size: 18px;
-  border: 1px dashed #333;
-  border-radius: 5px;
-  color: #9aabd8;
-  background: #ddd;
-  margin-bottom: 20px;
+.clear-points {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #f94f6d;
+  font-size: larger;
+  color: #f94f6d;
+  transition: 0.2s;
+}
+
+.clear-points:hover {
+  background-color: #f94f6d;
+  color: white;
 }

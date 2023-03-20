@@ -38,12 +38,9 @@ function addThreePtn_guest() {
   guestPointEl.textContent = point_guest;
 }
 
-function clearHomePoint() {
+function clearCurrentPoints() {
   point_home = 0;
-  homePointEl.textContent = point_home;
-}
-
-function clearGuestPoint() {
   point_guest = 0;
+  homePointEl.textContent = point_home;
   guestPointEl.textContent = point_guest;
 }
